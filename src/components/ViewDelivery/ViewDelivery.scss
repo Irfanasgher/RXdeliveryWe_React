@@ -1,0 +1,74 @@
+.view-delivery-container {
+  margin-bottom: 20px;
+  .form-continer {
+    width: 100%;
+  }
+  .card-google-map {
+    height: 82vh;
+  }
+  .contact-driver {
+    .ant-descriptions-title {
+      font-size: 20px;
+    }
+    .ant-descriptions-item {
+      padding-bottom: 0px !important;
+    }
+    .ant-descriptions-item-content {
+      font-size: 16px;
+    }
+    .ant-descriptions-item-label,
+    .ant-descriptions-item-content {
+      font-size: 16px;
+    }
+  }
+  .ant-form-item-label {
+    font-family: 'Roboto' sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #696969;
+    padding: 0 !important;
+    width: 100%;
+    text-align: start;
+  }
+  .ant-btn-dangerous {
+    border-radius: 8px;
+    svg {
+      margin-right: 1rem;
+    }
+  }
+  .ant-row .ant-form-item {
+    margin-right: 16px;
+    margin-bottom: 5px !important;
+  }
+  .ant-col-11 {
+    margin-top: 10px !important;
+  }
+
+  .ant-col-24 .lbl-pick-up-verification {
+    text-align: left;
+  }
+  .custom-phone-input {
+    padding-left: 3rem;
+    box-sizing: border-box;
+  }
+  #rePrintBtn {
+    span {
+      padding-left: 1rem;
+    }
+  }
+  .slaRow {
+    font-size: 16px;
+    font-weight: 600;
+    .closeIcon {
+      color: #2662f0;
+      transition: ease 0.5s;
+      &:hover {
+        color: rgb(237, 4, 35);
+        cursor: pointer;
+        transition: ease 0.5s;
+      }
+    }
+  }
+}

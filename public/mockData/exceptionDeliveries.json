@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "customerName": "Corey Aguilar",
+    "prescriptionNo": 1234421213,
+    "time": "11:45 AM",
+    "date": "Sunday, 22 September"
+  },
+  {
+    "id": 2,
+    "customerName": "Max Morales",
+    "prescriptionNo": 1234421213,
+    "time": "10:56 AM",
+    "date": "Sunday, 22 September"
+  },
+  {
+    "id": 3,
+    "customerName": "Bertie Maxwell",
+    "prescriptionNo": 1234421213,
+    "time": "10:14 AM",
+    "date": "Sunday, 22 September"
+  },
+  {
+    "id": 4,
+    "customerName": "Corey Aguilar",
+    "prescriptionNo": 1234421213,
+    "time": "11:45 AM",
+    "date": "Sunday, 22 September"
+  },
+  {
+    "id": 5,
+    "customerName": "Max Morales",
+    "prescriptionNo": 1234421213,
+    "time": "10:56 AM",
+    "date": "Sunday, 22 September"
+  },
+  {
+    "id": 6,
+    "customerName": "Bertie Maxwell",
+    "prescriptionNo": 1234421213,
+    "time": "10:14 AM",
+    "date": "Sunday, 22 September"
+  }
+]

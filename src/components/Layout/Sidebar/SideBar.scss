@@ -1,0 +1,24 @@
+#SideMenu {
+  .taxiIcon {
+    font-family: 'FontAwesome 5 Pro';
+    left: 0px;
+    top: calc(50%-40px / 2);
+  }
+
+  li.ant-menu-item {
+    background-color: #f1f5f8;
+    span:nth-of-type(1) {
+      padding-left: 1rem;
+    }
+  }
+}
+
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background-color: #f1f5f8 !important;
+}
+.ant-menu-vertical .ant-menu-item::after,
+.ant-menu-vertical-left .ant-menu-item::after,
+.ant-menu-vertical-right .ant-menu-item::after,
+.ant-menu-inline .ant-menu-item::after {
+  border-right: none !important;
+}

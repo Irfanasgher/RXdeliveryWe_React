@@ -1,0 +1,16 @@
+.mapMain {
+  width: 100%;
+  position: relative;
+  input.location-input.pac-target-input {
+    width: 100%;
+    position: absolute;
+    // top: -65vh;
+  }
+}
+
+.mapContainer {
+  .mapElement {
+    height: 100%;
+    position: relative;
+  }
+}

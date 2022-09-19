@@ -1,0 +1,21 @@
+.autocomplete-main {
+  position: relative;
+  .autocomplete-dropdown-container {
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    z-index: 100;
+
+    .suggestion-item,
+    .suggestion-item--active {
+      width: 100%;
+      padding: 10px 20px;
+      svg {
+        margin-right: 0.5rem;
+      }
+    }
+    .suggestion-item--active {
+      color: #2662f0;
+    }
+  }
+}

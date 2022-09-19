@@ -1,0 +1,61 @@
+/* rubik-regular - latin */
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/rubik/rubik-v9-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Rubik'), local('Rubik-Regular'),
+    url('/fonts/rubik/rubik-v9-latin-regular.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */ url('/fonts/rubik/rubik-v9-latin-regular.woff2') format('woff2'),
+    /* Super Modern Browsers */ url('/fonts/rubik/rubik-v9-latin-regular.woff') format('woff'),
+    /* Modern Browsers */ url('/fonts/rubik/rubik-v9-latin-regular.ttf') format('truetype'),
+    /* Safari, Android, iOS */ url('/fonts/rubik/rubik-v9-latin-regular.svg#Rubik') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('/fonts/FontAwesome5/FontAwesome.eot');
+  src: url('/fonts/FontAwesome5/FontAwesome.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/FontAwesome5/FontAwesome.woff2') format('woff2'),
+    url('/fonts/FontAwesome5/FontAwesome.woff') format('woff'),
+    url('/fonts/FontAwesome5/FontAwesome.ttf') format('truetype'),
+    url('/fonts/FontAwesome5/FontAwesome.svg#FontAwesome') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Font Awesome 5 Pro';
+  src: url('/fonts/FontAwesome5/FontAwesome5ProRegular.eot');
+  src: url('/fonts/FontAwesome5/FontAwesome5ProRegular.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/FontAwesome5/FontAwesome5ProRegular.woff2') format('woff2'),
+    url('/fonts/FontAwesome5/FontAwesome5ProRegular.woff') format('woff'),
+    url('/fonts/FontAwesome5/FontAwesome5ProRegular.ttf') format('truetype'),
+    url('/fonts/FontAwesome5/FontAwesome5ProRegular.svg#FontAwesome5ProRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Font Awesome 5 Pro Solid';
+  src: url('/fonts/FontAwesome5/FontAwesome5ProSolid.eot');
+  src: url('/fonts/FontAwesome5/FontAwesome5ProSolid.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/FontAwesome5/FontAwesome5ProSolid.woff2') format('woff2'),
+    url('/fonts/FontAwesome5/FontAwesome5ProSolid.woff') format('woff'),
+    url('/fonts/FontAwesome5/FontAwesome5ProSolid.ttf') format('truetype'),
+    url('/fonts/FontAwesome5/FontAwesome5ProSolid.svg#FontAwesome5ProSolid') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FontAwesome5ProLight';
+  src: url('/fonts/FontAwesome5/FontAwesome5ProLight.eot');
+  src: url('/fonts/FontAwesome5/FontAwesome5ProLight.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/FontAwesome5/FontAwesome5ProLight.svg#FontAwesome5ProLight') format('svg'),
+    url('/fonts/FontAwesome5/FontAwesome5ProLight.ttf') format('truetype'),
+    url('/fonts/FontAwesome5/FontAwesome5ProLight.woff') format('woff'),
+    url('/fonts/FontAwesome5/FontAwesome5ProLight.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}

@@ -1,0 +1,25 @@
+@import '../../styles/base';
+
+.App {
+  height: 100vh;
+  width: 100%;
+  background: #f1f5f8;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+
+  .login-container {
+    .ant-form {
+      label {
+        font-family: 'Roboto' sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+      }
+      .login-form-forgot {
+        font-size: 14px;
+        font-weight: bold;
+      }
+    }
+  }
+}

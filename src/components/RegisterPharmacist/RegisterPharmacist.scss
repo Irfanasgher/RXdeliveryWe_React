@@ -1,0 +1,35 @@
+.register-pharmacist-container {
+  .form-continer {
+    width: 100%;
+  }
+  .card-google-map {
+    height: 75vh;
+  }
+  .ant-form-item-label {
+    font-family: 'Roboto' sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #696969;
+    padding: 0 !important;
+    width: 100%;
+    text-align: start;
+  }
+  .ant-row .ant-form-item {
+    margin-right: 16px;
+    margin-bottom: 5px !important;
+  }
+  .ant-col-11 {
+    margin-right: 10px !important;
+    margin-top: 10px !important;
+  }
+
+  .ant-col-24 .lbl-pick-up-verification {
+    text-align: left;
+  }
+  .custom-phone-input {
+    padding-left: 3rem;
+    box-sizing: border-box;
+  }
+}

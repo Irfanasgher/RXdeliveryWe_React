@@ -1,0 +1,17 @@
+@import '../../styles/base.scss';
+.register-company-container {
+  svg {
+    margin-right: 1rem;
+  }
+  .ant-form-item-label {
+    font-family: 'Roboto' sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #696969;
+    padding: 0 !important;
+    width: 100%;
+    text-align: start;
+  }
+}

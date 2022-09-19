@@ -1,0 +1,27 @@
+@import '../../styles/base.scss';
+
+#completedDeliveriesCard {
+  border-radius: 10px;
+  color: $grey-color1;
+  h4 {
+    font-size: 1.125rem;
+    margin-bottom: 0;
+  }
+
+  .completedDelivery {
+    margin-right: 1rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    border-bottom: 1px dashed #a2c0d4;
+    .customerName {
+      color: #2b6df7;
+    }
+    .prescriptionNO {
+      font-size: 1rem;
+    }
+    .deliveryTime {
+      font-weight: 700;
+      color: $grey-color2;
+    }
+  }
+}

@@ -1,0 +1,90 @@
+@import '../../styles/base.scss';
+#pendingDeliveriesCard {
+  color: $grey-color1;
+  font-family: 'Roboto' sans-serif;
+  border-radius: 10px;
+  height: 100%;
+
+  h4 {
+    font-size: 1.125rem;
+  }
+  .dateCard {
+    background-color: #f1f5f8;
+    border-radius: 8px;
+    .ant-card-body {
+      padding: 0.5rem 0;
+      font-size: 0.875rem;
+      text-align: center;
+    }
+  }
+
+  .delivery-card {
+    margin-top: 1rem;
+    margin-right: 1rem;
+    padding: 1rem;
+    background-color: #fafbfd;
+    border-radius: 8px;
+    transition: ease 0.2s;
+    .clientDetails {
+      font-size: 0.875rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px dashed #a2c0d4;
+
+      span:nth-of-type(2) {
+        color: #2662f0;
+        padding-left: 0.5rem;
+      }
+      .status {
+        background-color: #f1f5f8;
+        color: #2662f0;
+        padding: 5px 10px;
+        border-radius: 8px;
+      }
+      svg {
+        padding: 2px;
+        margin-right: 5px;
+      }
+    }
+    .prescriptionDetails {
+      font-size: 0.875rem;
+      padding-top: 1rem;
+      p {
+        margin-bottom: 0;
+      }
+      .timings {
+        font-size: 0.75rem;
+      }
+      .detailsBtnCol {
+        display: flex;
+        justify-content: flex-end;
+        .detailsButton {
+          color: #2662f0;
+          padding-right: 1.25rem;
+          padding-left: 1.25rem;
+          box-shadow: 0px 2px 4px 0px rgba(1, 66, 230, 0.1);
+          border: none;
+
+          &:hover {
+            background-color: #2662f0;
+            color: white;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+    #delivery-progress {
+      .ant-progress-steps-outer {
+        .ant-progress-steps-item {
+          border-radius: 4px;
+          width: 20px !important;
+        }
+      }
+    }
+
+    &:hover {
+      background-color: white;
+      box-shadow: 0px 2px 8px 0px rgba(1, 66, 230, 0.1);
+      transition: ease 0.1s;
+    }
+  }
+}

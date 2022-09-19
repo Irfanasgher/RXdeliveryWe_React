@@ -1,0 +1,33 @@
+// Top Bar Styles
+#TopBar {
+  .bonsaHealthLogo {
+    height: 40px;
+  }
+  .lyftLogo {
+    height: 28px;
+  }
+  .searchInput {
+    border-radius: 8px;
+    min-width: 490px;
+    color: #54626c;
+  }
+  .profilePic {
+    p {
+      margin-bottom: 0;
+      padding-left: 1rem;
+      line-height: 1.3rem;
+    }
+    img {
+      border-radius: 8px;
+    }
+    p:nth-of-type(2) {
+      font-size: 0.7rem;
+    }
+    .ant-dropdown-link {
+      cursor: pointer;
+      .downArrow {
+        color: #bbcdd9;
+      }
+    }
+  }
+}

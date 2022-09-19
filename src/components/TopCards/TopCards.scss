@@ -1,0 +1,42 @@
+.selectedCard {
+  background-color: #c7c7c7 !important;
+}
+.SingleCard {
+  height: 150px;
+  border-radius: 10px !important;
+  transition: ease 0.3s;
+
+  &:hover {
+    background-color: #c7c7c7;
+    transition: ease 0.3s;
+    cursor: pointer;
+  }
+
+  .cardIcon {
+    height: 105px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    svg {
+      font-size: 2rem;
+      color: white;
+    }
+  }
+  .cardContent {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 1rem;
+    color: #414d55;
+    h1 {
+      font-size: 2.2rem;
+      font-weight: 700;
+    }
+    p {
+      font-size: 1rem;
+      font-weight: 600;
+    }
+  }
+}

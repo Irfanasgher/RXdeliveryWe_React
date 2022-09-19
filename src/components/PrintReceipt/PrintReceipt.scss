@@ -1,0 +1,42 @@
+@import '../../styles/base.scss';
+
+#printReceiptSection {
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color: $body-background;
+  font-family: 'Roboto' sans-serif;
+  .printBtn {
+    display: flex;
+    width: 100%;
+    padding-top: 1rem;
+    justify-content: center;
+    button {
+      background: #2662f0;
+      border-radius: 8px;
+      border: none;
+      svg {
+        margin-right: 1rem;
+      }
+    }
+  }
+}
+#printPage {
+  height: 6in;
+  width: 4in;
+  background-color: $white;
+  padding: 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  tr.ant-descriptions-row {
+    border: 1px solid black;
+    th:nth-child(1) {
+      border-right: 1px solid black;
+    }
+  }
+  h1 {
+    font-size: 18px;
+    font-weight: 700;
+    display: block;
+  }
+}

@@ -1,0 +1,34 @@
+@import './../../styles/base.scss';
+
+#MainLayout {
+  padding: 0 3rem;
+  background-color: $body-background;
+  min-height: 100vh;
+}
+.header {
+  background-color: $body-background !important;
+}
+#contentLayout {
+  height: 100%;
+  section.ant-layout {
+    padding: 10px 0 !important;
+    background-color: $body-background;
+    min-height: 100% !important;
+    .ant-layout-content {
+      overflow-y: hidden;
+    }
+    #SideBarLayout {
+      background-color: $body-background;
+      min-height: 100%;
+      display: flex;
+
+      div.ant-layout-sider-children {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+
+        align-items: flex-start;
+      }
+    }
+  }
+}
